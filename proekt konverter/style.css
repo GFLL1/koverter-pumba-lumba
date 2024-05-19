@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color:#c2c2c9;
+}
+.qolovnoyElemen{
+    display: flex;
+    justify-content: space-between;
+    width:75%;
+    margin:0 auto;
+    height:60px;
+    align-items: center;
+}
+.voyti {
+    padding: 8px 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.main{
+    width:50%;
+    margin:60px auto;
+}
+.first-part, .vtoroy{
+    margin-top:35px;
+}
+.konverter{
+    display: flex;
+    justify-content: space-between;
+    width:80%
+}
+.vvood{
+    font-size: 16px;
+    font-weight: 400;
+    color:#9f9f9f;
+}
+.naLevo,.naPravo{
+    padding:8px 20px;
+    border:1px solid #e5e5e5!important;
+    cursor: pointer;
+    color:#c6c6c6;
+}
+.naLevo:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.naPravo:last-child{
+    border-radius: 0 5px 5px 0;
+}
+.levo,.pravo{
+    margin-top:10px;
+    display:flex;
+    margin-bottom: 20px;
+}
+.naLevo:last-child{
+    border-radius: 0 5px 5px 0;
+}
+.naPravo:first-child{
+    border-radius: 5px 0 0 5px;
+}
+ul li{
+    display: inline;
+    list-style: none;
+}
+li a{
+    padding:10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #959BA4;
+}
+li:first-child a{
+    color:black;
+}
+ul{
+    width: 70%;
+}
+h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+.content{
+    border:1px solid #e5e5e5!important;
+    width:300px;
+    height:120px;
+    border-radius:5px;
+    padding:10px 15px;
+}
+.content input{
+    width:270px;
+    height:55px;
+    border:none;
+    font-size: 32px;
+    font-weight: 700;
+    padding:8px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.fiol{
+    background-color: purple;
+    color: white;
+}
+.resul{
+    font-size: 18px;
+    font-weight: 500;
+    color:#C6C6C6;
+    padding:6px;
+}
